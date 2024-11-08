@@ -1,5 +1,5 @@
-import "./App.css";
+import BusinessList from "./BusinessList";
 
 export default function App() {
-    return <></>;
+    return <BusinessList />;
 }
