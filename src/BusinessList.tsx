@@ -3,11 +3,11 @@ import Business from "./Business";
 
 export default function BusinessList() {
     return (
-        <div>
+        <ul>
             <Business />
             <Business />
             <Business />
             <Business />
-        </div>
+        </ul>
     );
 }

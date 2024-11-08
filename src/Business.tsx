@@ -2,16 +2,20 @@ import React from "react";
 
 export default function Business() {
     return (
-        <div>
-            <img src="" alt="" />
-            <div>Il Giovannis</div>
-            <div>Königsstraße 27</div>
-            <div>Stuttgart</div>
-            <div>Baden-Württemberg</div>
-            <div>70566</div>
-            <div>Italiener</div>
-            <div>4.2 Sterne</div>
-            <div>2933 Reviews</div>
-        </div>
+        <li>
+            <ul>
+                <li>
+                    <img src="" alt="" />
+                </li>
+                <li>Il Giovannis</li>
+                <li>Königsstraße 27</li>
+                <li>Stuttgart</li>
+                <li>Baden-Württemberg</li>
+                <li>70566</li>
+                <li>Italiener</li>
+                <li>4.2 Sterne</li>
+                <li>2933 Reviews</li>
+            </ul>
+        </li>
     );
 }

@@ -1,5 +1,11 @@
 import BusinessList from "./BusinessList";
+import SearchBar from "./SearchBar";
 
 export default function App() {
-    return <BusinessList />;
+    return (
+        <div>
+            <SearchBar />
+            <BusinessList />
+        </div>
+    );
 }
